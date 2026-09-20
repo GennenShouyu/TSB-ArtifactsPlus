@@ -1,0 +1,7 @@
+#> asset:effect/4220.time_acceleration/_/end
+#
+# Effectの効果の終了時に実行されるfunction
+#
+# @within tag/function asset:effect/end
+
+execute if data storage asset:context {id:4220} run function asset:effect/4220.time_acceleration/end/

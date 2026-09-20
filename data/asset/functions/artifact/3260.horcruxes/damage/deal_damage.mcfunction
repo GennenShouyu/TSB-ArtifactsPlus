@@ -1,0 +1,9 @@
+# 20%のダメージを与える
+    function api:modifier/max_health/get
+    execute store result storage api: Argument.Damage double 0.2 run data get storage api: Return.MaxHealth
+    data modify storage api: Argument.AttackType set value "Physical"
+    data modify storage api: Argument.FixedDamage set value true
+    data modify storage api: Argument.DeathMessage set value ['[{"translate": "%1$sは魂を此の世に保てなくなった","with":[{"selector":"@s"}]}]']
+    function api:damage/modifier
+    function api:damage/
+    function api:damage/reset
