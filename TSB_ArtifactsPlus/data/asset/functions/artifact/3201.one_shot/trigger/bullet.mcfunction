@@ -25,4 +25,4 @@
     execute if entity @s[tag=Landing] run function asset:artifact/3201.one_shot/trigger/hit
 
 # 再起
-    execute positioned ^ ^ ^0.5 if entity @s[tag=!Landing,distance=..10] run function asset:artifact/3201.one_shot/trigger/bullet
+    execute positioned ^ ^ ^0.5 if entity @s[tag=!Landing,distance=..30] run function asset:artifact/3201.one_shot/trigger/bullet
