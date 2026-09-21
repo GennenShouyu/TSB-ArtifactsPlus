@@ -1,4 +1,4 @@
-# TSB Artifacts Plus
+# TSB ArtifactsPlus
 神器を追加する The Sky Blessing用二次創作データパック
 
 ## 説明
