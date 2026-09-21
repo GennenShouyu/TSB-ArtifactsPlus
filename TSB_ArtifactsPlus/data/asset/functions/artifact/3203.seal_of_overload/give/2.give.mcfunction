@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"古の覇王の玉璽","color":"#58eaa6"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"1分間自らの防御力を15%、移動速度を25%低下させ、","color":"white"}','{"text":"代わりに攻撃力を30%上げる。","color":"white"}','{"text":" ","color":"white"}','{"text":"古代の数々の死闘をくぐり抜けた武帝の玉璽。","color":"gray"}','{"text":"かつて国を統一した時の力が込められているが、","color":"gray"}','{"text":"反乱軍により呪いがかけられた。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"1分間自らの防御力を10%、移動速度を10%低下させ、","color":"white"}','{"text":"代わりに攻撃力を30%上げる。","color":"white"}','{"text":" ","color":"white"}','{"text":"古代の数々の死闘をくぐり抜けた武帝の玉璽。","color":"gray"}','{"text":"かつて国を統一した時の力が込められているが、","color":"gray"}','{"text":"反乱軍により呪いがかけられた。","color":"gray"}']
 
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
@@ -47,7 +47,7 @@
 # 攻撃に関する情報 -攻撃範囲 (literal) Wikiを参照 (オプション)
     # data modify storage asset:artifact AttackInfo.AttackRange set value
 # MP消費量 (int)
-    data modify storage asset:artifact MPCost set value 85
+    data modify storage asset:artifact MPCost set value 0
 # MP必要量 (int) (オプション)
     # data modify storage asset:artifact MPRequire set value
 # 神器のクールダウン (int) (オプション)
@@ -56,7 +56,7 @@
     # data modify storage asset:artifact TypeCooldown.Type set value
     # data modify storage asset:artifact TypeCooldown.Duration set value
 # グローバルクールダウン (int) (オプション)
-    data modify storage asset:artifact SpecialCooldown set value 3600
+    data modify storage asset:artifact SpecialCooldown set value 1800
 # クールダウンによる使用不可のメッセージを非表示にするか否か (boolean) (オプション)
     data modify storage asset:artifact DisableCooldownMessage set value true
 # MP不足による使用不可のメッセージを非表示にするか否か (boolean) (オプション)
