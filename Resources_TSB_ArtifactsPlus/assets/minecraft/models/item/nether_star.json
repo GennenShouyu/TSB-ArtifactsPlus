@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/nether_star"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 801
+            },
+            "model": "item/artifact/nether_star/801"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 802
+            },
+            "model": "item/nether_star"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20112
+            },
+            "model": "item/other/nether_star/20112"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20113
+            },
+            "model": "item/nether_star"
+        }
+    ]
+}

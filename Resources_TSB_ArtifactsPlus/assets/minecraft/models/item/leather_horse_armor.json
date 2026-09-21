@@ -1,0 +1,422 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_horse_armor"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 20068
+            },
+            "model": "item/other/leather_horse_armor/20068"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20069
+            },
+            "model": "item/other/leather_horse_armor/20069"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20070
+            },
+            "model": "item/other/leather_horse_armor/20070"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20071
+            },
+            "model": "item/other/leather_horse_armor/20071"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20072
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20083
+            },
+            "model": "item/other/leather_horse_armor/20083"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20084
+            },
+            "model": "item/other/leather_horse_armor/20084"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20085
+            },
+            "model": "item/other/leather_horse_armor/20085"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20086
+            },
+            "model": "item/other/leather_horse_armor/20086"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20087
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20138
+            },
+            "model": "item/mob/leather_horse_armor/20138"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20139
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20157
+            },
+            "model": "item/other/leather_horse_armor/20157"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20158
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20329
+            },
+            "model": "item/other/leather_horse_armor/20329"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20330
+            },
+            "model": "item/other/leather_horse_armor/20330"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20331
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20334
+            },
+            "model": "item/other/leather_horse_armor/20334"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20335
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20352
+            },
+            "model": "item/other/leather_horse_armor/20352"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20353
+            },
+            "model": "item/other/leather_horse_armor/20353"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20354
+            },
+            "model": "item/other/leather_horse_armor/20354"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20355
+            },
+            "model": "item/other/leather_horse_armor/20355"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20356
+            },
+            "model": "item/other/leather_horse_armor/20356"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20357
+            },
+            "model": "item/other/leather_horse_armor/20357"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20358
+            },
+            "model": "item/other/leather_horse_armor/20358"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20359
+            },
+            "model": "item/other/leather_horse_armor/20359"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20360
+            },
+            "model": "item/other/leather_horse_armor/20360"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20361
+            },
+            "model": "item/other/leather_horse_armor/20361"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20362
+            },
+            "model": "item/other/leather_horse_armor/20362"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20363
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20364
+            },
+            "model": "item/other/leather_horse_armor/20364"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20365
+            },
+            "model": "item/other/leather_horse_armor/20365"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20366
+            },
+            "model": "item/other/leather_horse_armor/20366"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20370
+            },
+            "model": "item/other/leather_horse_armor/20370"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20371
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20375
+            },
+            "model": "item/other/leather_horse_armor/20375"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20376
+            },
+            "model": "item/other/leather_horse_armor/20376"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20377
+            },
+            "model": "item/other/leather_horse_armor/20377"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20378
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20379
+            },
+            "model": "item/other/leather_horse_armor/20379"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20380
+            },
+            "model": "item/other/leather_horse_armor/20380"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20381
+            },
+            "model": "item/other/leather_horse_armor/20381"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20382
+            },
+            "model": "item/other/leather_horse_armor/20382"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20383
+            },
+            "model": "item/other/leather_horse_armor/20383"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20384
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20396
+            },
+            "model": "item/other/leather_horse_armor/20396"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20397
+            },
+            "model": "item/mob/leather_horse_armor/20397"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20398
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20443
+            },
+            "model": "item/mob/leather_horse_armor/20443"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20444
+            },
+            "model": "item/mob/leather_horse_armor/20444"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20445
+            },
+            "model": "item/other/leather_horse_armor/20445"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20446
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20451
+            },
+            "model": "item/artifact/leather_horse_armor/20451"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20452
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20468
+            },
+            "model": "item/mob/leather_horse_armor/20468"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20469
+            },
+            "model": "item/mob/leather_horse_armor/20469"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20470
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20479
+            },
+            "model": "item/other/leather_horse_armor/20479"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20480
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20481
+            },
+            "model": "item/other/leather_horse_armor/20481"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20482
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20506
+            },
+            "model": "item/other/leather_horse_armor/20506"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20507
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20560
+            },
+            "model": "item/other/leather_horse_armor/20560"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20561
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20562
+            },
+            "model": "item/mob/leather_horse_armor/20562"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20563
+            },
+            "model": "item/leather_horse_armor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22004
+            },
+            "model": "item/leather_horse_armor"
+        }
+    ]
+}

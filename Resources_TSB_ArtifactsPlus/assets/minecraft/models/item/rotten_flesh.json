@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rotten_flesh"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 105
+            },
+            "model": "item/artifact/rotten_flesh/105"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 106
+            },
+            "model": "item/rotten_flesh"
+        }
+    ]
+}

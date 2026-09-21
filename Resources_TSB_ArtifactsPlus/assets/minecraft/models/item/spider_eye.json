@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/spider_eye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 3232
+            },
+            "model": "item/artifact/spider_eye/3232"
+        }
+    ]
+}

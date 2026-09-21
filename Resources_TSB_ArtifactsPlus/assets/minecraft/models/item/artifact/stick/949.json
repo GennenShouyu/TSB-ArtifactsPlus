@@ -1,0 +1,15 @@
+{
+    "parent": "item/other/stick/20509",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-35, 65, 0],
+			"translation": [-3, 4, -3],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-35, 65, 0],
+			"translation": [-3, 4, -3],
+			"scale": [0.95, 0.95, 0.95]
+		}
+	}
+}

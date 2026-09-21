@@ -1,0 +1,76 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_boots",
+        "layer1": "item/leather_boots_overlay"
+
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 20335
+            },
+            "model": "item/other/leather_boots/20335"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20336
+            },
+            "model": "item/other/leather_boots/20336"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20337
+            },
+            "model": "item/other/leather_boots/20337"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20338
+            },
+            "model": "item/leather_boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20545
+            },
+            "model": "item/other/leather_boots/20545"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20546
+            },
+            "model": "item/other/leather_boots/20546"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20547
+            },
+            "model": "item/other/leather_boots/20547"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20548
+            },
+            "model": "item/leather_boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22004
+            },
+            "model": "item/other/leather_boots/22004"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22005
+            },
+            "model": "item/other/leather_boots/22005"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22006
+            },
+            "model": "item/other/leather_boots/22006"
+        }
+    ]
+}

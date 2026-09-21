@@ -1,0 +1,2000 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/artifact/carrot_on_a_stick/1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/artifact/carrot_on_a_stick/2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/artifact/carrot_on_a_stick/5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "item/artifact/carrot_on_a_stick/7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "item/artifact/carrot_on_a_stick/8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "item/artifact/carrot_on_a_stick/10"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "item/artifact/carrot_on_a_stick/16"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "item/artifact/carrot_on_a_stick/17"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "item/artifact/carrot_on_a_stick/19"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "item/artifact/carrot_on_a_stick/22"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "item/artifact/carrot_on_a_stick/33"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "item/artifact/carrot_on_a_stick/35"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 36
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 46
+            },
+            "model": "item/artifact/carrot_on_a_stick/46"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 71
+            },
+            "model": "item/artifact/carrot_on_a_stick/71"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 72
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 75
+            },
+            "model": "item/artifact/carrot_on_a_stick/75"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 76
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 78
+            },
+            "model": "item/artifact/carrot_on_a_stick/78"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 79
+            },
+            "model": "item/artifact/carrot_on_a_stick/79"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 80
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 87
+            },
+            "model": "item/artifact/carrot_on_a_stick/87"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 88
+            },
+            "model": "item/artifact/carrot_on_a_stick/88"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 89
+            },
+            "model": "item/artifact/carrot_on_a_stick/89"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 90
+            },
+            "model": "item/artifact/carrot_on_a_stick/90"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 91
+            },
+            "model": "item/artifact/carrot_on_a_stick/91"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 92
+            },
+            "model": "item/artifact/carrot_on_a_stick/92"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 93
+            },
+            "model": "item/artifact/carrot_on_a_stick/93"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 94
+            },
+            "model": "item/artifact/carrot_on_a_stick/94"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 95
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 103
+            },
+            "model": "item/artifact/carrot_on_a_stick/103"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 104
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 107
+            },
+            "model": "item/artifact/carrot_on_a_stick/107"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 108
+            },
+            "model": "item/artifact/carrot_on_a_stick/108"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 109
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 122
+            },
+            "model": "item/artifact/carrot_on_a_stick/122"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 123
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 125
+            },
+            "model": "item/artifact/carrot_on_a_stick/125"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 126
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 152
+            },
+            "model": "item/artifact/carrot_on_a_stick/152"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 153
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 158
+            },
+            "model": "item/artifact/carrot_on_a_stick/158"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 159
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 162
+            },
+            "model": "item/artifact/carrot_on_a_stick/162"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 163
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 172
+            },
+            "model": "item/artifact/carrot_on_a_stick/172"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 173
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 183
+            },
+            "model": "item/artifact/carrot_on_a_stick/183"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 184
+            },
+            "model": "item/artifact/carrot_on_a_stick/184"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 185
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 187
+            },
+            "model": "item/artifact/carrot_on_a_stick/187"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 188
+            },
+            "model": "item/artifact/carrot_on_a_stick/188"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 189
+            },
+            "model": "item/artifact/carrot_on_a_stick/189"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 190
+            },
+            "model": "item/artifact/carrot_on_a_stick/190"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 191
+            },
+            "model": "item/artifact/carrot_on_a_stick/191"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 192
+            },
+            "model": "item/artifact/carrot_on_a_stick/192"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 193
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 210
+            },
+            "model": "item/artifact/carrot_on_a_stick/210"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 211
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 212
+            },
+            "model": "item/artifact/carrot_on_a_stick/212"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 213
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 214
+            },
+            "model": "item/artifact/carrot_on_a_stick/214"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 215
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 218
+            },
+            "model": "item/artifact/carrot_on_a_stick/218"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 219
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 233
+            },
+            "model": "item/artifact/carrot_on_a_stick/233"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 234
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 236
+            },
+            "model": "item/artifact/carrot_on_a_stick/236"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 237
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 246
+            },
+            "model": "item/artifact/carrot_on_a_stick/246"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 247
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 252
+            },
+            "model": "item/artifact/carrot_on_a_stick/252"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 253
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 260
+            },
+            "model": "item/artifact/carrot_on_a_stick/260"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 261
+            },
+            "model": "item/artifact/carrot_on_a_stick/261"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 262
+            },
+            "model": "item/artifact/carrot_on_a_stick/262"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 263
+            },
+            "model": "item/artifact/carrot_on_a_stick/263"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 264
+            },
+            "model": "item/artifact/carrot_on_a_stick/264"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 265
+            },
+            "model": "item/artifact/carrot_on_a_stick/265"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 266
+            },
+            "model": "item/artifact/carrot_on_a_stick/266"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 267
+            },
+            "model": "item/artifact/carrot_on_a_stick/267"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 268
+            },
+            "model": "item/artifact/carrot_on_a_stick/268"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 269
+            },
+            "model": "item/artifact/carrot_on_a_stick/269"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 270
+            },
+            "model": "item/artifact/carrot_on_a_stick/270"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 271
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 278
+            },
+            "model": "item/artifact/carrot_on_a_stick/278"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 279
+            },
+            "model": "item/artifact/carrot_on_a_stick/279"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 280
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 290
+            },
+            "model": "item/artifact/carrot_on_a_stick/290"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 291
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 294
+            },
+            "model": "item/artifact/carrot_on_a_stick/294"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 295
+            },
+            "model": "item/artifact/carrot_on_a_stick/295"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 296
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 297
+            },
+            "model": "item/artifact/carrot_on_a_stick/297"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 298
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 301
+            },
+            "model": "item/artifact/carrot_on_a_stick/301"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 302
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 322
+            },
+            "model": "item/artifact/carrot_on_a_stick/322"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 323
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 342
+            },
+            "model": "item/artifact/carrot_on_a_stick/342"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 343
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 346
+            },
+            "model": "item/artifact/carrot_on_a_stick/346"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 347
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 355
+            },
+            "model": "item/artifact/carrot_on_a_stick/355"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 356
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 361
+            },
+            "model": "item/artifact/carrot_on_a_stick/361"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 362
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 364
+            },
+            "model": "item/artifact/carrot_on_a_stick/364"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 365
+            },
+            "model": "item/artifact/carrot_on_a_stick/365"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 366
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 368
+            },
+            "model": "item/artifact/carrot_on_a_stick/368"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 369
+            },
+            "model": "item/artifact/carrot_on_a_stick/369"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 370
+            },
+            "model": "item/artifact/carrot_on_a_stick/370"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 371
+            },
+            "model": "item/artifact/carrot_on_a_stick/371"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 372
+            },
+            "model": "item/artifact/carrot_on_a_stick/372"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 373
+            },
+            "model": "item/artifact/carrot_on_a_stick/373"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 374
+            },
+            "model": "item/artifact/carrot_on_a_stick/374"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 375
+            },
+            "model": "item/artifact/carrot_on_a_stick/375"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 376
+            },
+            "model": "item/artifact/carrot_on_a_stick/376"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 377
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 379
+            },
+            "model": "item/artifact/carrot_on_a_stick/379"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 380
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 383
+            },
+            "model": "item/artifact/carrot_on_a_stick/383"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 384
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 397
+            },
+            "model": "item/artifact/carrot_on_a_stick/397"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 398
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 431
+            },
+            "model": "item/artifact/carrot_on_a_stick/431"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 432
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 462
+            },
+            "model": "item/artifact/carrot_on_a_stick/462"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 463
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 464
+            },
+            "model": "item/artifact/carrot_on_a_stick/464"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 465
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 467
+            },
+            "model": "item/artifact/carrot_on_a_stick/467"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 468
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 469
+            },
+            "model": "item/artifact/carrot_on_a_stick/469"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 470
+            },
+            "model": "item/artifact/carrot_on_a_stick/470"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 471
+            },
+            "model": "item/artifact/carrot_on_a_stick/471"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 472
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 501
+            },
+            "model": "item/artifact/carrot_on_a_stick/501"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 502
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 522
+            },
+            "model": "item/artifact/carrot_on_a_stick/522"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 523
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 607
+            },
+            "model": "item/artifact/carrot_on_a_stick/607"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 608
+            },
+            "model": "item/artifact/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 609
+            },
+            "model": "item/artifact/carrot_on_a_stick/609"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 610
+            },
+            "model": "item/artifact/carrot_on_a_stick/610"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 611
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 613
+            },
+            "model": "item/artifact/carrot_on_a_stick/613"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 614
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 673
+            },
+            "model": "item/artifact/carrot_on_a_stick/673"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 674
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 730
+            },
+            "model": "item/artifact/carrot_on_a_stick/730"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 731
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 737
+            },
+            "model": "item/artifact/carrot_on_a_stick/737"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 738
+            },
+            "model": "item/artifact/carrot_on_a_stick/738"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 739
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 769
+            },
+            "model": "item/artifact/carrot_on_a_stick/769"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 770
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 793
+            },
+            "model": "item/artifact/carrot_on_a_stick/793"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 794
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 796
+            },
+            "model": "item/artifact/carrot_on_a_stick/796"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 797
+            },
+            "model": "item/artifact/carrot_on_a_stick/797"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 798
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 820
+            },
+            "model": "item/artifact/carrot_on_a_stick/820"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 821
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 822
+            },
+            "model": "item/artifact/carrot_on_a_stick/822"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 823
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 826
+            },
+            "model": "item/artifact/carrot_on_a_stick/826"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 827
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 837
+            },
+            "model": "item/artifact/carrot_on_a_stick/837"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 838
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 840
+            },
+            "model": "item/artifact/carrot_on_a_stick/840"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 841
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 870
+            },
+            "model": "item/artifact/carrot_on_a_stick/870"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 871
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 877
+            },
+            "model": "item/artifact/carrot_on_a_stick/877"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 878
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 905
+            },
+            "model": "item/artifact/carrot_on_a_stick/905"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 906
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 907
+            },
+            "model": "item/artifact/carrot_on_a_stick/907"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 908
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 952
+            },
+            "model": "item/artifact/carrot_on_a_stick/952"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 953
+            },
+            "model": "item/artifact/carrot_on_a_stick/953"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 954
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 958
+            },
+            "model": "item/artifact/carrot_on_a_stick/958"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 959
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 973
+            },
+            "model": "item/artifact/carrot_on_a_stick/973"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 974
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 976
+            },
+            "model": "item/artifact/carrot_on_a_stick/976"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 977
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 981
+            },
+            "model": "item/artifact/carrot_on_a_stick/981"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 982
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 985
+            },
+            "model": "item/artifact/carrot_on_a_stick/985"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 986
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 987
+            },
+            "model": "item/artifact/carrot_on_a_stick/987"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 988
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 999
+            },
+            "model": "item/artifact/carrot_on_a_stick/999"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1017
+            },
+            "model": "item/artifact/carrot_on_a_stick/1017"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1018
+            },
+            "model": "item/artifact/carrot_on_a_stick/1018"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1019
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1021
+            },
+            "model": "item/artifact/carrot_on_a_stick/1021"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1022
+            },
+            "model": "item/artifact/carrot_on_a_stick/1022"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1023
+            },
+            "model": "item/artifact/carrot_on_a_stick/1023"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1024
+            },
+            "model": "item/artifact/carrot_on_a_stick/1024"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1025
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1027
+            },
+            "model": "item/artifact/carrot_on_a_stick/1027"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1028
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1029
+            },
+            "model": "item/artifact/carrot_on_a_stick/1029"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1030
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1037
+            },
+            "model": "item/artifact/carrot_on_a_stick/1037"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1038
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1043
+            },
+            "model": "item/artifact/carrot_on_a_stick/1043"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1044
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1045
+            },
+            "model": "item/artifact/carrot_on_a_stick/1045"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1046
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1047
+            },
+            "model": "item/artifact/carrot_on_a_stick/1047"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1048
+            },
+            "model": "item/artifact/carrot_on_a_stick/1048"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1049
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1065
+            },
+            "model": "item/artifact/carrot_on_a_stick/1065"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1066
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1076
+            },
+            "model": "item/artifact/carrot_on_a_stick/1076"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1077
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1079
+            },
+            "model": "item/artifact/carrot_on_a_stick/1079"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1080
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1096
+            },
+            "model": "item/artifact/carrot_on_a_stick/1096"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1097
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1111
+            },
+            "model": "item/artifact/carrot_on_a_stick/1111"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1112
+            },
+            "model": "item/artifact/carrot_on_a_stick/1112"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1113
+            },
+            "model": "item/artifact/carrot_on_a_stick/1113"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1114
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1119
+            },
+            "model": "item/artifact/carrot_on_a_stick/1119"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1120
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1121
+            },
+            "model": "item/artifact/carrot_on_a_stick/1121"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1122
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1123
+            },
+            "model": "item/artifact/carrot_on_a_stick/1123"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1124
+            },
+            "model": "item/artifact/carrot_on_a_stick/1124"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1125
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1142
+            },
+            "model": "item/artifact/carrot_on_a_stick/1142"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1143
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1144
+            },
+            "model": "item/artifact/carrot_on_a_stick/1144"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1145
+            },
+            "model": "item/artifact/carrot_on_a_stick/1145"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1146
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1150
+            },
+            "model": "item/artifact/carrot_on_a_stick/1150"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1151
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1166
+            },
+            "model": "item/artifact/carrot_on_a_stick/1166"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1167
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1172
+            },
+            "model": "item/artifact/carrot_on_a_stick/1172"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1173
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1176
+            },
+            "model": "item/artifact/carrot_on_a_stick/1176"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1177
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1183
+            },
+            "model": "item/artifact/carrot_on_a_stick/1183"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1184
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1186
+            },
+            "model": "item/artifact/carrot_on_a_stick/1186"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1187
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1197
+            },
+            "model": "item/artifact/carrot_on_a_stick/1197"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1198
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1199
+            },
+            "model": "item/artifact/carrot_on_a_stick/1199"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1200
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1201
+            },
+            "model": "item/artifact/carrot_on_a_stick/1201"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1202
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1206
+            },
+            "model": "item/artifact/carrot_on_a_stick/1206"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1207
+            },
+            "model": "item/artifact/carrot_on_a_stick/1207"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1208
+            },
+            "model": "item/artifact/carrot_on_a_stick/1208"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1209
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1218
+            },
+            "model": "item/artifact/carrot_on_a_stick/1218"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1219
+            },
+            "model": "item/artifact/carrot_on_a_stick/1219"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1220
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1221
+            },
+            "model": "item/artifact/carrot_on_a_stick/1221"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1222
+            },
+            "model": "item/artifact/carrot_on_a_stick/1222"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1223
+            },
+            "model": "item/artifact/carrot_on_a_stick/1223"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1224
+            },
+            "model": "item/artifact/carrot_on_a_stick/1224"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1225
+            },
+            "model": "item/artifact/carrot_on_a_stick/1225"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1226
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1230
+            },
+            "model": "item/artifact/carrot_on_a_stick/1230"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1231
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1251
+            },
+            "model": "item/artifact/carrot_on_a_stick/1251"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1252
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1254
+            },
+            "model": "item/artifact/carrot_on_a_stick/1254"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1255
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1257
+            },
+            "model": "item/artifact/carrot_on_a_stick/1257"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1258
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1260
+            },
+            "model": "item/artifact/carrot_on_a_stick/1260"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1261
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1264
+            },
+            "model": "item/artifact/carrot_on_a_stick/1264"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1265
+            },
+            "model": "item/artifact/carrot_on_a_stick/1265"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1266
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1270
+            },
+            "model": "item/artifact/carrot_on_a_stick/1270"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1271
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1272
+            },
+            "model": "item/artifact/carrot_on_a_stick/1272"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1273
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1284
+            },
+            "model": "item/artifact/carrot_on_a_stick/1284"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1285
+            },
+            "model": "item/artifact/carrot_on_a_stick/1285"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1286
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2001
+            },
+            "model": "item/artifact/carrot_on_a_stick/2001"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2002
+            },
+            "model": "item/carrot_on_a_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3203
+            },
+            "model": "item/artifact/carrot_on_a_stick/3203"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3215
+            },
+            "model": "item/artifact/carrot_on_a_stick/3215"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3216
+            },
+            "model": "item/artifact/carrot_on_a_stick/3216"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3218
+            },
+            "model": "item/artifact/carrot_on_a_stick/3218"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3221
+            },
+            "model": "item/artifact/carrot_on_a_stick/3221"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3224
+            },
+            "model": "item/artifact/carrot_on_a_stick/3224"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3225
+            },
+            "model": "item/artifact/carrot_on_a_stick/3225"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3228
+            },
+            "model": "item/artifact/carrot_on_a_stick/3228"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3229
+            },
+            "model": "item/artifact/carrot_on_a_stick/3229"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3231
+            },
+            "model": "item/artifact/carrot_on_a_stick/3231"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3235
+            },
+            "model": "item/artifact/carrot_on_a_stick/3235"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3236
+            },
+            "model": "item/artifact/carrot_on_a_stick/3236"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3237
+            },
+            "model": "item/artifact/carrot_on_a_stick/3237"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3238
+            },
+            "model": "item/artifact/carrot_on_a_stick/3238"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3240
+            },
+            "model": "item/artifact/carrot_on_a_stick/3240"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3241
+            },
+            "model": "item/artifact/carrot_on_a_stick/3241"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3248
+            },
+            "model": "item/artifact/carrot_on_a_stick/3248"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3249
+            },
+            "model": "item/artifact/carrot_on_a_stick/3249"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3250
+            },
+            "model": "item/artifact/carrot_on_a_stick/3250"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3261
+            },
+            "model": "item/artifact/carrot_on_a_stick/3261"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3264
+            },
+            "model": "item/minecart"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3265
+            },
+            "model": "item/artifact/carrot_on_a_stick/3265"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3268
+            },
+            "model": "item/artifact/carrot_on_a_stick/3268"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3269
+            },
+            "model": "item/artifact/carrot_on_a_stick/3269"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3271
+            },
+            "model": "item/artifact/carrot_on_a_stick/3271"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20187
+            },
+            "model": "item/mob/carrot_on_a_stick/20187"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20188
+            },
+            "model": "item/carrot_on_a_stick"
+        }
+    ]
+}

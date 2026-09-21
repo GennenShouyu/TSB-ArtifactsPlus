@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/feather"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 247
+            },
+            "model": "item/artifact/feather/247"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 248
+            },
+            "model": "item/feather"
+        }
+    ]
+}

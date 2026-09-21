@@ -1,0 +1,68 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/honey_bottle"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 771
+            },
+            "model": "item/artifact/honey_bottle/771"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 772
+            },
+            "model": "item/honey_bottle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1342
+            },
+            "model": "item/artifact/honey_bottle/1342"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1343
+            },
+            "model": "item/artifact/honey_bottle/1343"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1344
+            },
+            "model": "item/honey_bottle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3209
+            },
+            "model": "item/artifact/honey_bottle/3209"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3210
+            },
+            "model": "item/artifact/honey_bottle/3210"
+        },
+	    {
+            "predicate": {
+                "custom_model_data": 3217
+            },
+            "model": "item/artifact/honey_bottle/3217"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3242
+            },
+            "model": "item/artifact/honey_bottle/3242"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3243
+            },
+            "model": "item/artifact/honey_bottle/3243"
+        }
+    ]
+}

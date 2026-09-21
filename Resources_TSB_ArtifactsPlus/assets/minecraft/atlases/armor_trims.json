@@ -1,0 +1,50 @@
+{
+    "sources": [
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "tsb_armor:trims/models/armor/534",
+                "tsb_armor:trims/models/armor/534_leggings",
+                "tsb_armor:trims/models/armor/554",
+                "tsb_armor:trims/models/armor/554_leggings",
+                "tsb_armor:trims/models/armor/566",
+                "tsb_armor:trims/models/armor/566_leggings",
+                "tsb_armor:trims/models/armor/558",
+                "tsb_armor:trims/models/armor/558_leggings" ,
+                "tsb_armor:trims/models/armor/638",
+                "tsb_armor:trims/models/armor/638_leggings",
+                "tsb_armor:trims/models/armor/642",
+                "tsb_armor:trims/models/armor/642_leggings",
+                "tsb_armor:trims/models/armor/646",
+                "tsb_armor:trims/models/armor/646_leggings",
+                "tsb_armor:trims/models/armor/664",
+                "tsb_armor:trims/models/armor/664_leggings" ,
+                "tsb_armor:trims/models/armor/971",
+                "tsb_armor:trims/models/armor/971_leggings" ,
+                "tsb_armor:trims/models/armor/1118",
+                "tsb_armor:trims/models/armor/1118_leggings",
+                "tsb_armor:trims/models/armor/3251",
+                "tsb_armor:trims/models/armor/3251_leggings",
+                "tsb_armor:trims/models/armor/20400",
+                "tsb_armor:trims/models/armor/20400_leggings"
+            ],
+            "palette_key": "trims/color_palettes/trim_palette",
+            "permutations": {
+                "quartz": "trims/color_palettes/quartz",
+                "iron": "trims/color_palettes/iron",
+                "gold": "trims/color_palettes/gold",
+                "diamond": "trims/color_palettes/diamond",
+                "netherite": "trims/color_palettes/netherite",
+                "redstone": "trims/color_palettes/redstone",
+                "copper": "trims/color_palettes/copper",
+                "emerald": "trims/color_palettes/emerald",
+                "lapis": "trims/color_palettes/lapis",
+                "amethyst": "trims/color_palettes/amethyst",
+                "iron_darker": "trims/color_palettes/iron_darker",
+                "gold_darker": "trims/color_palettes/gold_darker",
+                "diamond_darker": "trims/color_palettes/diamond_darker",
+                "netherite_darker": "trims/color_palettes/netherite_darker"
+            }
+        }
+    ]
+}

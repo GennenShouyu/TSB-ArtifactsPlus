@@ -1,0 +1,27 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "minecraft:block/melon_top",
+        "side": "minecraft:block/melon_side"    
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 20023
+            },
+            "model": "item/mob/melon/20023"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20024
+            },
+            "model": "item/mob/melon/20024"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20025
+            },
+            "model": "item/melon"
+        }
+    ]
+}

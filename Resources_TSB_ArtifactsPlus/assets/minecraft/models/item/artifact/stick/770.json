@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "item/artifact/carrot_on_a_stick/769",
+	"textures": {
+		"1": "item/artifact/stick/770/shaking_splash_reload"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -2.5, -2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -2.5, -2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-85, 0, 0],
+			"translation": [-0.5, 5.5, 2.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-85, 0, 0],
+			"translation": [-0.5, 5.5, 2.5],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

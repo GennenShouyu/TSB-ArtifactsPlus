@@ -1,0 +1,219 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 135
+            },
+            "model": "item/artifact/potion/135"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 136
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 137
+            },
+            "model": "item/artifact/potion/137"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 138
+            },
+            "model": "item/artifact/potion/138"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 139
+            },
+            "model": "item/artifact/potion/139"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 140
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 141
+            },
+            "model": "item/artifact/potion/141"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 142
+            },
+            "model": "item/artifact/potion/142"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143
+            },
+            "model": "item/artifact/potion/143"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 144
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 145
+            },
+            "model": "item/artifact/potion/145"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 146
+            },
+            "model": "item/artifact/potion/146"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 147
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 456
+            },
+            "model": "item/artifact/potion/456"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 457
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 617
+            },
+            "model": "item/artifact/potion/617"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 618
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20233
+            },
+            "model": "item/other/potion/20233"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20234
+            },
+            "model": "item/other/potion/20234"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20235
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20237
+            },
+            "model": "item/other/potion/20237"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20238
+            },
+            "model": "item/other/potion/20238"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20239
+            },
+            "model": "item/other/potion/20239"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20240
+            },
+            "model": "item/other/potion/20240"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20241
+            },
+            "model": "item/other/potion/20241"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20242
+            },
+            "model": "item/other/potion/20242"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20243
+            },
+            "model": "item/other/potion/20243"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20244
+            },
+            "model": "item/other/potion/20244"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20245
+            },
+            "model": "item/other/potion/20245"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20246
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20342
+            },
+            "model": "item/other/potion/20342"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20343
+            },
+            "model": "item/other/potion/20343"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20344
+            },
+            "model": "item/potion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20590
+            },
+            "model": "item/other/potion/20590"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20591
+            },
+            "model": "item/potion"
+        }
+    ]
+}

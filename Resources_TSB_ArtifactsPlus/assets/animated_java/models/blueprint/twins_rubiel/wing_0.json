@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"8": "animated_java:blueprint/twins_rubiel/rubiel_v2",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.97257, 3.66554, 7.89491],
+			"to": [7.97257, 10.66554, 14.89491],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [7.97257, 3.66554, 8.89491]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#8"
+				},
+				"east": {
+					"uv": [4.75, 1.875, 5.625, 2.75],
+					"texture": "#8"
+				},
+				"south": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#8"
+				},
+				"west": {
+					"uv": [5.625, 1.875, 4.75, 2.75],
+					"texture": "#8"
+				},
+				"up": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#8"
+				},
+				"down": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#8"
+				}
+			}
+		}
+	]
+}

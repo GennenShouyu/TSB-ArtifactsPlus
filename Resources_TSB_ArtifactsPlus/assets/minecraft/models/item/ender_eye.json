@@ -1,0 +1,170 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ender_eye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 224
+            },
+            "model": "item/artifact/ender_eye/224"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 225
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 758
+            },
+            "model": "item/artifact/ender_eye/758"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 759
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 876
+            },
+            "model": "item/artifact/ender_eye/876"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 877
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 948
+            },
+            "model": "item/artifact/ender_eye/948"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 949
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 983
+            },
+            "model": "item/artifact/ender_eye/983"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 984
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1089
+            },
+            "model": "item/artifact/ender_eye/1089"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1090
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1120
+            },
+            "model": "item/artifact/ender_eye/1120"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1121
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1220
+            },
+            "model": "item/artifact/ender_eye/1220"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1221
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1227
+            },
+            "model": "item/artifact/ender_eye/1227"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1228
+            },
+            "model": "item/artifact/ender_eye/1228"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1229
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1256
+            },
+            "model": "item/artifact/ender_eye/1256"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1257
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1269
+            },
+            "model": "item/artifact/ender_eye/1269"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1270
+            },
+            "model": "item/ender_eye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3201
+            },
+            "model": "item/artifact/ender_eye/3201"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3205
+            },
+            "model": "item/artifact/ender_eye/3205"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3207
+            },
+            "model": "item/artifact/ender_eye/3207"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3212
+            },
+            "model": "item/artifact/ender_eye/3212"
+        }
+    ]
+}

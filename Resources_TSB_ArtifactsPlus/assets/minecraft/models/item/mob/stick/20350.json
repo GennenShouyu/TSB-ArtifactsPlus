@@ -1,0 +1,6 @@
+{
+    "parent": "item/mob/leather_horse_armor/20138",
+    "textures": {
+        "0": "item/mob/stick/20350/book"
+    }
+}

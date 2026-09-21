@@ -1,0 +1,51 @@
+{
+	"textures": {
+		"6": "animated_java:blueprint/twins_sapphiel/sapphiel_v2",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3.75, 3, 2.4],
+			"to": [7.5, 7.75, 8.4],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 7.875, 6]
+			},
+			"faces": {
+				"south": {
+					"uv": [5.125, 7.875, 5.625, 8.5],
+					"texture": "#6"
+				},
+				"west": {
+					"uv": [2.875, 6.625, 3.5, 7.25],
+					"texture": "#6"
+				}
+			}
+		},
+		{
+			"from": [7.5, 3, 2.4],
+			"to": [3.75, 7.75, 8.4],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 7.875, 6]
+			},
+			"faces": {
+				"east": {
+					"uv": [3.5, 6.625, 2.875, 7.25],
+					"texture": "#6"
+				},
+				"south": {
+					"uv": [5.625, 7.875, 5.125, 8.5],
+					"texture": "#6"
+				}
+			}
+		}
+	]
+}
