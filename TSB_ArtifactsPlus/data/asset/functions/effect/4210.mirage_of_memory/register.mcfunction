@@ -11,7 +11,7 @@
 # 名前 (TextComponentString)
     data modify storage asset:effect Name set value '{"text":"思い出を映す蜃気楼","color":"red"}'
 # 説明文 (TextComponentString[])
-    data modify storage asset:effect Description set value ['{"text":"最大MP+25%、MP自動回復毎秒+4、火攻撃+20%を得るが、","color":"white"}','{"text":"最大HPの20%を喪失し、防御力が低下する。","color":"white"}']
+    data modify storage asset:effect Description set value ['{"text":"最大MP+25%、MP自動回復+4、火攻撃+20%を得るが、","color":"white"}','{"text":"最大HPの10%を喪失する。","color":"white"}']
 # 効果時間 (int) (default = API || error)
     data modify storage asset:effect Duration set value 900
 # スタック (int) (default = API || 1)
