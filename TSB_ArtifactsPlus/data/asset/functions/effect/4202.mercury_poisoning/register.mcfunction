@@ -11,7 +11,7 @@
 # 名前 (TextComponentString)
     data modify storage asset:effect Name set value '{"text":"水銀中毒","color":"red"}'
 # 説明文 (TextComponentString[])
-    data modify storage asset:effect Description set value ['{"text":"攻撃力、MP回復、防御力を上昇させるが、毒状態になる。","color":"white"}']
+    data modify storage asset:effect Description set value ['{"text":"攻撃力、MP回復、防御力、移動速度を上昇させるが、毒状態になる。","color":"white"}']
 # 効果時間 (int) (default = API || error)
     data modify storage asset:effect Duration set value 600
 # スタック (int) (default = API || 1)
