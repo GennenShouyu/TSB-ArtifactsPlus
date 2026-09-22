@@ -28,30 +28,20 @@
     execute unless score $1A0.Stack Temporary matches 0 run playsound item.totem.use player @a ~ ~ ~ 1 1.0
 
 # スタック毎のダメージ設定
-    execute if score $1A0.Stack Temporary matches 0 run data modify storage api: Argument.Damage set value 800
-    execute if score $1A0.Stack Temporary matches 1 run data modify storage api: Argument.Damage set value 980
-    execute if score $1A0.Stack Temporary matches 2 run data modify storage api: Argument.Damage set value 1160
-    execute if score $1A0.Stack Temporary matches 3 run data modify storage api: Argument.Damage set value 1340
-    execute if score $1A0.Stack Temporary matches 4 run data modify storage api: Argument.Damage set value 1520
-    execute if score $1A0.Stack Temporary matches 5 run data modify storage api: Argument.Damage set value 1700
-    execute if score $1A0.Stack Temporary matches 6 run data modify storage api: Argument.Damage set value 1880
-    execute if score $1A0.Stack Temporary matches 7 run data modify storage api: Argument.Damage set value 2060
-    execute if score $1A0.Stack Temporary matches 8 run data modify storage api: Argument.Damage set value 2240
-    execute if score $1A0.Stack Temporary matches 9 run data modify storage api: Argument.Damage set value 2420
-    execute if score $1A0.Stack Temporary matches 10 run data modify storage api: Argument.Damage set value 2600
-    execute if score $1A0.Stack Temporary matches 11 run data modify storage api: Argument.Damage set value 2780
-    execute if score $1A0.Stack Temporary matches 12 run data modify storage api: Argument.Damage set value 2960
-    execute if score $1A0.Stack Temporary matches 13 run data modify storage api: Argument.Damage set value 3140
-    execute if score $1A0.Stack Temporary matches 14 run data modify storage api: Argument.Damage set value 3320
-    execute if score $1A0.Stack Temporary matches 15 run data modify storage api: Argument.Damage set value 3500
-    execute if score $1A0.Stack Temporary matches 16 run data modify storage api: Argument.Damage set value 3680
-    execute if score $1A0.Stack Temporary matches 17 run data modify storage api: Argument.Damage set value 3860
-    execute if score $1A0.Stack Temporary matches 18 run data modify storage api: Argument.Damage set value 4040
-    execute if score $1A0.Stack Temporary matches 19 run data modify storage api: Argument.Damage set value 4220
-    execute if score $1A0.Stack Temporary matches 20 run data modify storage api: Argument.Damage set value 4400
+    execute if score $1A0.Stack Temporary matches 0 run data modify storage api: Argument.Damage set value 1800
+    execute if score $1A0.Stack Temporary matches 1 run data modify storage api: Argument.Damage set value 2700
+    execute if score $1A0.Stack Temporary matches 2 run data modify storage api: Argument.Damage set value 3600
+    execute if score $1A0.Stack Temporary matches 3 run data modify storage api: Argument.Damage set value 4500
+    execute if score $1A0.Stack Temporary matches 4 run data modify storage api: Argument.Damage set value 5400
+    execute if score $1A0.Stack Temporary matches 5 run data modify storage api: Argument.Damage set value 6300
+    execute if score $1A0.Stack Temporary matches 6 run data modify storage api: Argument.Damage set value 7200
+    execute if score $1A0.Stack Temporary matches 7 run data modify storage api: Argument.Damage set value 8100
+    execute if score $1A0.Stack Temporary matches 8 run data modify storage api: Argument.Damage set value 9000
+    execute if score $1A0.Stack Temporary matches 9 run data modify storage api: Argument.Damage set value 9900
+    execute if score $1A0.Stack Temporary matches 10 run data modify storage api: Argument.Damage set value 10800
 
 # 敵エフェクト
-    execute unless score $1A0.Stack Temporary matches 0 at @e[type=#lib:living,type=!player,tag=Victim,tag=!Uninterferable,distance=..10] run particle minecraft:flame ~ ~1 ~ 0.4 1.0 0.4 1 20 force @a[distance=..30]
+    execute unless score $1A0.Stack Temporary matches 0 at @e[type=#lib:living,type=!player,tag=Victim,tag=!Uninterferable,distance=..10] run function asset:artifact/3219.axe_of_frenzy/melee/vfx
 
 # ダメージ
     data modify storage api: Argument.AttackType set value "Physical"
