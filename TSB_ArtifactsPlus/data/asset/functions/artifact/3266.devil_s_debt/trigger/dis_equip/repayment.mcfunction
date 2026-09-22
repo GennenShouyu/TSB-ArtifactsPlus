@@ -13,7 +13,7 @@
 # スタックに応じてダメージ
     data modify storage api: Argument.ID set value 4228
     function api:entity/mob/effect/get/from_id
-    execute store result storage api: Argument.Damage float 8.0 run data get storage api: Return.Effect.Stack
+    execute store result storage api: Argument.Damage float 4.0 run data get storage api: Return.Effect.Stack
     data modify storage api: Argument.AttackType set value "Magic"
     data modify storage api: Argument.FixedDamage set value true
     data modify storage api: Argument.DeathMessage set value ['[{"translate": "%1$sは債務超過した","with":[{"selector":"@s"}]}]']
