@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"在りし日の幻","color":"#ff6b31"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"外装が一部溶けてしまっているオイルライター。","color":"white"}','{"text":"自身を燃やし尽くし、最大MP+25%、MP自動回復毎秒+4、","color":"white"}','{"text":"火攻撃+20%を得る。","color":"white"}','{"text":"但し、発動中は最大HPの20%を喪失し、防御力が低下する。","color":"white"}','{"text":" ","color":"gray"}','{"text":"今を消し炭にしてでも、過去に縋りたいあなたに。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"外装が一部溶けてしまっているオイルライター。","color":"white"}','{"text":"自身を燃やし尽くし、最大MP+25%、MP自動回復+4、","color":"white"}','{"text":"火攻撃+20%を得る。","color":"white"}','{"text":"但し、発動中は最大HPの10%を喪失する。","color":"white"}','{"text":" ","color":"gray"}','{"text":"今を消し炭にしてでも、過去に縋りたいあなたに。","color":"gray"}']
 
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
@@ -47,7 +47,7 @@
 # 攻撃に関する情報 -攻撃範囲 (literal) Wikiを参照 (オプション)
     # data modify storage asset:artifact AttackInfo.AttackRange set value
 # MP消費量 (int)
-    data modify storage asset:artifact MPCost set value 150
+    data modify storage asset:artifact MPCost set value 0
 # MP必要量 (int) (オプション)
     # data modify storage asset:artifact MPRequire set value
 # 神器のクールダウン (int) (オプション)
