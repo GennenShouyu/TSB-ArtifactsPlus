@@ -13,8 +13,12 @@
 
 # ここから先は神器側の効果の処理を書く
 
+# 効果音など
+    execute as @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0.5 5
+    execute as @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run playsound entity.generic.burn neutral @s ~ ~ ~ 0.5 1
+
 # ダメージ
-    data modify storage api: Argument.Damage set value 480
+    data modify storage api: Argument.Damage set value 540
     data modify storage api: Argument.AttackType set value "Physical"
     data modify storage api: Argument.ElementType set value "Fire"
     function api:damage/modifier
@@ -22,7 +26,4 @@
     function api:damage/reset
 
 # 確率で回復
-    # 疑似乱数取得
-        execute store result score $Random Temporary run random value 0..1
-    # 増加
-        execute if score $Random Temporary matches 0 as @s run function asset:artifact/3214.burnt_pan/trigger/recovery
+    execute if predicate lib:random_pass_per/50 run function asset:artifact/3214.burnt_pan/trigger/recovery
