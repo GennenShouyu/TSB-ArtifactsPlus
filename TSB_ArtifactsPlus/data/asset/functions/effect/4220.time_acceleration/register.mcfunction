@@ -11,7 +11,7 @@
 # 名前 (TextComponentString)
     data modify storage asset:effect Name set value '{"text":"時の加速","color":"aqua"}'
 # 説明文 (TextComponentString[])
-    data modify storage asset:effect Description set value ['{"text":"MP自動回復+7を得るが、体力-25%、攻撃力、","color":"white"}','{"text":"防御力、移動速度-5%を受ける","color":"white"}','{"text":"時の流れを早めることは、自身の衰えも早めるということだ。","color":"gray"}']
+    data modify storage asset:effect Description set value ['{"text":"MP自動回復+7を得るが、体力-10%、攻撃力、","color":"white"}','{"text":"防御力、移動速度-3%を受ける","color":"white"}','{"text":"時の流れを早めることは、自身の衰えも早めるということだ。","color":"gray"}']
 # 効果時間 (int) (default = API || error)
     data modify storage asset:effect Duration set value 600
 # スタック (int) (default = API || 1)

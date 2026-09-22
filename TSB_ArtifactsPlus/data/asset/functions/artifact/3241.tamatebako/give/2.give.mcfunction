@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"宝玉の手箱","color":"#fff01f"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"発動時にMPを全回復し、MP自動回復+7を一定時間得る。","color":"white"}','{"text":"ただ、発動中の間は体力-25%、攻撃力、","color":"white"}','{"text":"防御力、移動速度-5%の効果を受ける。","color":"white"}','{"text":" ","color":"gray"}','{"text":"浦島太郎という寓話の中に出てくる箱。","color":"gray"}','{"text":"時間の流れを操る力が秘められている。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"発動時にMPを全回復し、MP自動回復+7を一定時間得る。","color":"white"}','{"text":"ただ、発動中の間は体力-10%、攻撃力、","color":"white"}','{"text":"防御力、移動速度-3%の効果を受ける。","color":"white"}','{"text":" ","color":"gray"}','{"text":"浦島太郎という寓話の中に出てくる箱。","color":"gray"}','{"text":"時間の流れを操る力が秘められている。","color":"gray"}']
 
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value

@@ -10,11 +10,11 @@
     data modify storage api: Argument.UUID set value [I;1,3,4220,0]
     function api:modifier/max_health/remove
 
-# 攻撃-5%
+# 攻撃-3%
     data modify storage api: Argument.UUID set value [I;1,3,4220,0]
     function api:modifier/attack/base/remove
 
-# 防御-5%
+# 防御-3%
     data modify storage api: Argument.UUID set value [I;1,3,4220,0]
     function api:modifier/defense/base/remove
 

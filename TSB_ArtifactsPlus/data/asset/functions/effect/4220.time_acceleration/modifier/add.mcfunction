@@ -6,22 +6,22 @@
 
 # 最大体力-25%
     data modify storage api: Argument.UUID set value [I;1,3,4220,0]
-    data modify storage api: Argument.Amount set value -0.25d
+    data modify storage api: Argument.Amount set value -0.10d
     data modify storage api: Argument.Operation set value "multiply_base"
     function api:modifier/max_health/add
     
-# 攻撃-10%
+# 攻撃-3%
     data modify storage api: Argument.UUID set value [I;1,3,4220,0]
-    data modify storage api: Argument.Amount set value -0.05d
+    data modify storage api: Argument.Amount set value -0.03d
     data modify storage api: Argument.Operation set value "multiply"
     function api:modifier/attack/base/add
 
-# 防御-10%
+# 防御-3%
     data modify storage api: Argument.UUID set value [I;1,3,4220,0]
-    data modify storage api: Argument.Amount set value -0.05f
+    data modify storage api: Argument.Amount set value -0.03f
     data modify storage api: Argument.Operation set value "multiply"
     function api:modifier/defense/base/add
 
 
-# 移動速度-10%
-    attribute @s generic.movement_speed modifier add 00000001-0000-0003-0000-00cb00000000 "4220.Speed" -0.05 multiply
+# 移動速度-3%
+    attribute @s generic.movement_speed modifier add 00000001-0000-0003-0000-00cb00000000 "4220.Speed" -0.03 multiply
