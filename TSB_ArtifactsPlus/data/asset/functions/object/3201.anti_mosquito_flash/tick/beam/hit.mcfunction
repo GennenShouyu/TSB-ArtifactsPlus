@@ -15,11 +15,11 @@
 
 
 # ダメージ
-    data modify storage api: Argument.Damage set value 70
+    data modify storage api: Argument.Damage set value 110
 # 空中にいる敵ならダメージ増加
-    execute at @e[type=#lib:living_without_player,tag=LandingTarget,distance=..30,limit=1] if block ~ ~-1 ~ air run data modify storage api: Argument.Damage set value 120
+    execute at @e[type=#lib:living_without_player,tag=LandingTarget,distance=..30,limit=1] if block ~ ~-1 ~ air run data modify storage api: Argument.Damage set value 380
     data modify storage api: Argument.AttackType set value "Magic"
-    data modify storage api: Argument.ElementType set value "Fire"
+    data modify storage api: Argument.ElementType set value "None"
     data modify storage api: Argument.AdditionalMPHeal set from storage asset:context this.AdditionalMPHeal
     execute store result score $UserID Temporary run data get storage asset:context this.UserID
     execute as @a if score @s UserID = $UserID Temporary run function api:damage/modifier
