@@ -7,6 +7,7 @@
 
     # 逆上の一斧 artifact/3219.axe_of_frenzy
     scoreboard objectives add 1A0.Charge dummy
+    scoreboard objectives add 1A0.Count dummy
 
     # 虚ろを除く銃口 artifact/3224.void_bayonet
     scoreboard objectives add 1A1.Time dummy
