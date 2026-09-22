@@ -1,0 +1,1 @@
+function asset:artifact/3219.axe_of_frenzy/melee/slash/vfx/slash1
