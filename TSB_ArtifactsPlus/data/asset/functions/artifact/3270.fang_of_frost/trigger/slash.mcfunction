@@ -16,9 +16,10 @@
     execute as @e[type=#lib:living,type=!player,tag=1B6.Hit,tag=!Uninterferable,distance=..3] positioned ^ ^ ^-100 run tag @s[type=#lib:living,type=!player,tag=1B6.Hit,tag=!Uninterferable,distance=..100] remove 1B6.Hit
 
 # ダメージ
-    data modify storage api: Argument.Damage set value 80
+    data modify storage api: Argument.Damage set value 125
     data modify storage api: Argument.AttackType set value "Physical"
     data modify storage api: Argument.ElementType set value "Water"
+    data modify storage api: Argument.AdditionalMPHeal set value 8
     function api:damage/modifier
     execute as @e[type=#lib:living,type=!player,tag=1B6.Hit,tag=!Uninterferable,distance=..16] run function api:damage/
     function api:damage/reset
