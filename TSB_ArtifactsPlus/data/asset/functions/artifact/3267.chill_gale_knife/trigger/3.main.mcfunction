@@ -17,7 +17,7 @@
     playsound entity.wind_charge.wind_burst player @a ~ ~ ~ 1 1
 
 # ダメージ
-    data modify storage api: Argument.Damage set value 120
+    data modify storage api: Argument.Damage set value 180
     data modify storage api: Argument.AttackType set value "Physical"
     data modify storage api: Argument.ElementType set value "Water"
     function api:damage/modifier
