@@ -14,8 +14,8 @@
 # ここから先は神器側の効果の処理を書く
 
 # 効果音など
-    execute as @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0.5 5
-    execute as @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run playsound entity.generic.burn neutral @s ~ ~ ~ 0.5 1
+    execute at @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0.5 5
+    execute at @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run playsound entity.generic.burn neutral @a ~ ~ ~ 0.5 1
 
 # ダメージ
     data modify storage api: Argument.Damage set value 540
