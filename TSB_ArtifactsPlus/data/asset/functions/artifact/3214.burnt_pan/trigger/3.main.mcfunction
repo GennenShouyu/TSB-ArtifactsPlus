@@ -15,6 +15,7 @@
 
 # 効果音など
     execute at @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0.5 5
+    execute at @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run particle minecraft:flame ~ ~1 ~ 0.2 1 0.2 0 15
     execute at @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run playsound entity.generic.burn neutral @a ~ ~ ~ 0.5 1
 
 # ダメージ
