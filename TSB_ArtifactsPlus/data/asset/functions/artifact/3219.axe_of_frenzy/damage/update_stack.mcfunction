@@ -39,7 +39,7 @@
     execute if score @s 1A0.Charge matches 9 run data modify storage api: Argument.Stack set value 9
     execute if score @s 1A0.Charge matches 9 run playsound block.beacon.activate player @a ~ ~ ~ 1 2.0
 
-    execute if score @s 1A0.Charge matches 10 run data modify storage api: Argument.Stack set value 10
+    execute if score @s 1A0.Charge matches 10.. run data modify storage api: Argument.Stack set value 10
     execute if score @s 1A0.Charge matches 10 run playsound block.beacon.activate player @a ~ ~ ~ 1 2.0
     execute if score @s 1A0.Charge matches 10 run playsound item.trident.thunder player @a ~ ~ ~ 1 0.5
     execute if score @s 1A0.Charge matches 10 run playsound entity.elder_guardian.curse player @a ~ ~ ~ 2 1.0
