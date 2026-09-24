@@ -4,9 +4,9 @@
 #
 # @within function asset:effect/4202.mercury_poisoning/given/
 
-# 攻撃+15%
+# 攻撃+25%
     data modify storage api: Argument.UUID set value [I;1,3,4202,0]
-    data modify storage api: Argument.Amount set value 0.15
+    data modify storage api: Argument.Amount set value 0.25
     data modify storage api: Argument.Operation set value "multiply"
     function api:modifier/attack/base/add
 

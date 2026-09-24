@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"唐紅の妙薬","color":"red"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['[{"text":"赤い鉱石を砕いて粉末状にした薬。"}]','[{"text":"使用すると、30秒間 攻撃力+15%、MP回復+40%、"}]','[{"text":"防御力+15%、移動速度+15%を得るが、毒状態になる。"}]','[{"text":"　"}]','[{"text":"かつて古代の皇帝たちが、不老不死になれると信じて","color":"gray"}]','[{"text":"飲んでいた薬。","color":"gray"}]']
+    data modify storage asset:artifact Lore set value ['[{"text":"赤い鉱石を砕いて粉末状にした薬。"}]','[{"text":"使用すると、30秒間 攻撃力+25%、MP回復+40%、"}]','[{"text":"防御力+15%、移動速度+15%を得るが、3秒毎にダメージを受ける。"}]','[{"text":"　"}]','[{"text":"かつて古代の皇帝たちが、不老不死になれると信じて","color":"gray"}]','[{"text":"飲んでいた薬。","color":"gray"}]']
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
     # data modify storage asset:artifact ConsumeItem.Count set value

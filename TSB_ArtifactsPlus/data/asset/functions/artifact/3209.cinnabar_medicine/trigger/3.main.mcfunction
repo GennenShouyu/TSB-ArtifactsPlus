@@ -13,6 +13,3 @@
     data modify storage api: Argument.ID set value 4202
     function api:entity/mob/effect/give
     function api:entity/mob/effect/reset
-
-# 毒を付与
-    effect give @s poison 30 9 true
