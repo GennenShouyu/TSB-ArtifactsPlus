@@ -22,8 +22,8 @@
 
 #カウント用
     execute if score $1A0.Stack Temporary matches ..4 run scoreboard players set @s 1A0.Count 1
-    execute if score $1A0.Stack Temporary matches 5.. if score $1A0.Stack Temporary matches ..9 run scoreboard players set @s 1A0.Count 11
-    execute if score $1A0.Stack Temporary matches 10 run scoreboard players set @s 1A0.Count 21
+    execute if score $1A0.Stack Temporary matches 5.. if score $1A0.Stack Temporary matches ..9 run scoreboard players set @s 1A0.Count 14
+    execute if score $1A0.Stack Temporary matches 10 run scoreboard players set @s 1A0.Count 27
 
 # ターゲット指定
     execute as @e[type=#lib:living,type=!player,tag=Victim,tag=!Uninterferable,distance=..10] run tag @s add 1A0.Target

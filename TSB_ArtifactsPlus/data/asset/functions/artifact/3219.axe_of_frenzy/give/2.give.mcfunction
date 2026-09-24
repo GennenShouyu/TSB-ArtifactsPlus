@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '{"text":"逆上の一斧","color":"dark_red","bold":true}'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"ホットバーに入れた状態でダメージを受ける度に、","color":"white"}','{"text":"この神器の攻撃力倍率が75%ずつ上昇する。","color":"white"}','{"text":"最大10回まで蓄積し、攻撃を行うとリセットされる。","color":"white"}','{"text":"また、スタックが5以上の時は","color":"white"}','{"text":"この神器の1/4のダメージの斬撃が発生し、","color":"white"}','{"text":"スタックが最大のときは爆発を起こした後にダメージを与える。","color":"white"}','{"text":" ","color":"white"}','{"text":"持ち主の痛みや苦しみに共鳴し、鋭さを増す斧。","color":"gray"}','{"text":"日々のストレスも怒りも、全部敵にぶつけてしまえ！","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"ホットバーに入れた状態でダメージを受ける度に、","color":"white"}','{"text":"この神器の攻撃力倍率が30%ずつ上昇する。","color":"white"}','{"text":"最大10回まで蓄積し、攻撃を行うとリセットされる。","color":"white"}','{"text":"また、スタックが5以上の時は","color":"white"}','{"text":"この神器の1/4のダメージの斬撃が発生し、2回ダメージを与える。","color":"white"}','{"text":"また、スタックが最大のときは爆発を起こした後に3回ダメージを与える。","color":"white"}','{"text":" ","color":"white"}','{"text":"持ち主の痛みや苦しみに共鳴し、鋭さを増す斧。","color":"gray"}','{"text":"日々のストレスも怒りも、全部敵にぶつけてしまえ！","color":"gray"}']
 
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
