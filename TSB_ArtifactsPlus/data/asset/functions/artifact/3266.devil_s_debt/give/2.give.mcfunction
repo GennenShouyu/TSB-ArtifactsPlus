@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"悪魔の債権","color":"#ce1e35"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"発動中、被ダメージを大幅に軽減する。","color":"white"}','{"text":"代わりに攻撃を受けるたび負債が溜まり、","color":"white"}','{"text":"負債が最大まで溜まるか、装備を外した際に、負債に応じた対価を払う。","color":"white"}','{"text":" ","color":"white"}','{"text":"ご利用は計画的に...","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"発動中、被ダメージを大幅に軽減する。","color":"white"}','{"text":"代わりに攻撃を受けるたび負債が溜まり、","color":"white"}','{"text":"負債が最大まで溜まるか、装備を外した際に、負債に応じた対価を払う。","color":"white"}','{"text":"また、負債が溜まってから1秒間の間は、","color":"white"}','{"text":"どれだけ攻撃を受けても負債は増加しない。","color":"white"}','{"text":" ","color":"white"}','{"text":"ご利用は計画的に...","color":"gray"}']
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
     # data modify storage asset:artifact ConsumeItem.Count set value

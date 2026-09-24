@@ -9,8 +9,8 @@
 
 # ここから先は神器側の効果の処理を書く
 
-# チャージを+1
-    scoreboard players add @s 1B3.Charge 1
+# クールタイム用スコアのリセット
+    execute if score @s 1B3.Count matches ..-1 run scoreboard players set @s 1B3.Count 20
 
-# エフェクトのスタック更新など
-    function asset:artifact/3266.devil_s_debt/damage/update_stack
+# スケジュールループ
+    schedule function asset:artifact/3266.devil_s_debt/damage/schedule_loop 1t replace

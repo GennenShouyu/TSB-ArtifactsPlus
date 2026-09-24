@@ -34,6 +34,8 @@
 
     # 悪魔の債権 artifact/3266.devil_s_debt
     scoreboard objectives add 1B3.Charge dummy
+    scoreboard objectives add 1B3.Count dummy
+    scoreboard players set @a 1B3.Count 0
 
     # ファイアボルトスロワー 3269.firebolt_thrower
     scoreboard objectives add 1B4.ChainCount dummy

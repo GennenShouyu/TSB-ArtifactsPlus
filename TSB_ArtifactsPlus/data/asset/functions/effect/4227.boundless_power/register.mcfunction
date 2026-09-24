@@ -15,7 +15,7 @@
 # 効果時間 (int) (default = API || error)
     data modify storage asset:effect Duration set value 2147483647
 # スタック (int) (default = API || 1)
-    data modify storage asset:effect Stack set value 1
+    # data modify storage asset:effect Stack set value 1
 # 効果時間の操作方法 (default = API || "replace")
     # data modify storage asset:effect DurationOperation set value
 # スタックの操作方法 (default = API || "replace")
