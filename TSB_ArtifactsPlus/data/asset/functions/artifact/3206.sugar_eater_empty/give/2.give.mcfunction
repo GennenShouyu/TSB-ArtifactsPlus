@@ -18,7 +18,7 @@
     data modify storage asset:artifact Lore set value ['[{"text":"常に砂糖を欲している銃。","color":"#ECC9D8"}]','[{"text":"弾薬が無い。砂糖を与えられるだけ与えてやれば使えるようになるだろう。","color":"#ECC9D8"}]','[{"text":" ","color":"#ECC9D8"}]','[{"text":"銃でも低血糖に陥ることがあるらしい。","color":"gray"}]']
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     data modify storage asset:artifact ConsumeItem.Item set value '{"translate":"item.minecraft.sugar"}'
-    data modify storage asset:artifact ConsumeItem.Count set value 4
+    data modify storage asset:artifact ConsumeItem.Count set value 1
     # data modify storage asset:artifact ConsumeItem.Extra set value
 # 使用回数 (int) (オプション)
     data modify storage asset:artifact RemainingCount set value 4

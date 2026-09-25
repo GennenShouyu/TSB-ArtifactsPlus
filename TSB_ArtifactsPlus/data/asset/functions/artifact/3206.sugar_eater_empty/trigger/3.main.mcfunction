@@ -10,7 +10,7 @@
 # ここから先は神器側の効果の処理を書く
 
 # 消費
-    clear @s sugar 4
+    clear @s sugar 1
 
 # 演出
     particle block white_stained_glass ~ ~1.2 ~ 0.4 0.4 0.4 0 20 normal @a
