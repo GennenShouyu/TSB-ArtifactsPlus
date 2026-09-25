@@ -45,7 +45,7 @@
 # MP必要量 (int) (オプション)
     # data modify storage asset:artifact MPRequire set value
 # MP回復量
-    data modify storage asset:artifact MPHealWhenHit set value 24
+    data modify storage asset:artifact MPHealWhenHit set value 36
 # 神器のクールダウン (int) (オプション)
     # data modify storage asset:artifact LocalCooldown set value 25
 # 種別クールダウン ({Type: string, Duration: int}) (オプション)
