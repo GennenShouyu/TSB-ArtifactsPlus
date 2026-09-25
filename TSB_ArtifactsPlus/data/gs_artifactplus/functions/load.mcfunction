@@ -25,6 +25,12 @@
     # ガンマンのリボルバー artifact/3238.gunslinger_s_revolver
     scoreboard objectives add 1B0.Charge dummy
 
+    # 諸刃の剣 artifact/3245.double_edged_sword
+    scoreboard objectives add 1B9.Count dummy
+    scoreboard objectives add nbs_artifact dummy
+    scoreboard objectives add nbs_artifact_t dummy
+    scoreboard players set speed nbs_artifact 85
+
     # トゥルースシーカー artifact/3250.truthseeker
     scoreboard objectives add 1B1.LatestUseTick dummy
     scoreboard objectives add 1B1.Combo dummy

@@ -17,7 +17,7 @@
     # 疑似乱数取得
         execute store result score $Random Temporary run random value 0..99
     # 一撃必殺
-        execute if score $Random Temporary matches 0 at @e[type=#lib:living,type=!player,tag=Victim,tag=!Uninterferable] run function asset:artifact/3245.double_edged_sword/trigger/attack_increase
+        execute if score $Random Temporary matches 0 at @e[type=#lib:living,type=!player,tag=Victim,tag=!Uninterferable] run function asset:artifact/3245.double_edged_sword/trigger/critical/
     # 通常攻撃（10ダメ）
         execute if score $Random Temporary matches 1..49 at @e[type=#lib:living,type=!player,tag=Victim] run function asset:artifact/3245.double_edged_sword/trigger/attack
     # 自分が死ぬ
