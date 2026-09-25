@@ -13,6 +13,7 @@
         data modify storage api: Argument.Damage set value 730.0f
     # 第一属性
         data modify storage api: Argument.AttackType set value "Physical"
+        data modify storage api: Argument.ElementType set value "None"
     # ダメージ
         execute as @p[tag=this] run function api:damage/modifier
         function api:damage/
