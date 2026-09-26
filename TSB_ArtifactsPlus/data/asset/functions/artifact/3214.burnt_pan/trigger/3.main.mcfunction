@@ -27,12 +27,9 @@
     execute as @e[type=#lib:living,type=!player,tag=Victim,distance=..10] run function api:damage/
     function api:damage/reset
 
-# 確率で回復
+# 確率で回復（体力が半分以下で確率上昇）
     function api:entity/player/get_health_per
     execute store result score $HealthPer Temporary run data get storage api: Return.HealthPer 100
 
     execute unless score $HealthPer Temporary matches ..50 run execute if predicate lib:random_pass_per/50 run function asset:artifact/3214.burnt_pan/trigger/recovery
     execute if score $HealthPer Temporary matches ..50 run execute if predicate lib:random_pass_per/75 run function asset:artifact/3214.burnt_pan/trigger/recovery
-
-    execute unless score $HealthPer Temporary matches ..50 run say 50per
-    execute if score $HealthPer Temporary matches ..50 run say 75per
