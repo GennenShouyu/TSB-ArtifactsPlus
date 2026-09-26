@@ -7,6 +7,7 @@
 #> Private
 # @private
     #declare score_holder $Random
+    #declare score_holder $HealthPer
 
 # 基本的な使用時の処理(MP消費や使用回数の処理など)を行う
     function asset:artifact/common/use/mainhand
@@ -27,4 +28,11 @@
     function api:damage/reset
 
 # 確率で回復
-    execute if predicate lib:random_pass_per/50 run function asset:artifact/3214.burnt_pan/trigger/recovery
+    function api:entity/player/get_health_per
+    execute store result score $HealthPer Temporary run data get storage api: Return.HealthPer 100
+
+    execute unless score $HealthPer Temporary matches ..50 run execute if predicate lib:random_pass_per/50 run function asset:artifact/3214.burnt_pan/trigger/recovery
+    execute if score $HealthPer Temporary matches ..50 run execute if predicate lib:random_pass_per/75 run function asset:artifact/3214.burnt_pan/trigger/recovery
+
+    execute unless score $HealthPer Temporary matches ..50 run say 50per
+    execute if score $HealthPer Temporary matches ..50 run say 75per

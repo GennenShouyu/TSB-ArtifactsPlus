@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '{"text":"焦げたフライパン","color":"gold"}'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"攻撃した際、たまに自身の体力を25回復する。","color":"white"}','{"text":" ","color":"gray"}','{"text":"まだ微かに熱を感じる。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"攻撃した際、50%の確率で自身のHPを25回復する。","color":"white"}','{"text":"また、体力が半分を下回っている場合は75%の確率で回復する。","color":"white"}','{"text":" ","color":"gray"}','{"text":"まだ微かに熱を感じる。","color":"gray"}']
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
     # data modify storage asset:artifact ConsumeItem.Count set value
