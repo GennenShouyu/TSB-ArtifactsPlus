@@ -7,13 +7,13 @@
 # 一定の距離から距離減衰するための距離(適正距離をメートル*2で指定)
     scoreboard players set $Appropriate_Distance Temporary 16
 # 最低ダメージ保証
-    scoreboard players set $MinDamage Temporary 280
+    scoreboard players set $MinDamage Temporary 90
 
 # 演出
     execute at @e[tag=LandingTarget,limit=1] run particle minecraft:block redstone_block ~ ~1.2 ~ 0.4 0.4 0.4 0 4
 # ダメージ設定
     # ダメージ
-        scoreboard players add $Damage Temporary 350
+        scoreboard players add $Damage Temporary 115
     # 属性
         data modify storage api: Argument.AttackType set value "Magic"
         data modify storage api: Argument.ElementType set value "None"

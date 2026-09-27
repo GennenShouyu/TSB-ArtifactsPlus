@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"ニワトコの杖","color":"#fcf4e6"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"ニワトコの木から作られた魔法の杖。","color":"white"}','{"text":"使用すれば前方に無属性の貫通する魔法攻撃を行う。","color":"white"}','[{"text":"また、しゃがんで使用すれば自分と周囲の味方の体力を","color":"white"},{"text":"6.0","color":"#6e99ff"},{"text":"回復する。","color":"white"}]','{"text":" ","color":"white"}','{"text":"死の秘宝の一つ。","color":"gray"}','{"text":"どんな決闘にも負けないとされる、史上最強の杖。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"ニワトコの木から作られた魔法の杖。","color":"white"}','{"text":"使用すれば、MPを追加で50消費して前方に無属性の貫通する魔法攻撃を行う。","color":"white"}','[{"text":"また、しゃがんで使用すれば自分と周囲の味方の体力を","color":"white"},{"text":"6.0","color":"#6e99ff"},{"text":"回復する。","color":"white"}]','{"text":" ","color":"white"}','{"text":"死の秘宝の一つ。","color":"gray"}','{"text":"どんな決闘にも負けないとされる、史上最強の杖。","color":"gray"}']
 
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
@@ -35,7 +35,7 @@
     # data modify storage asset:artifact Condition set value
 
 # 攻撃に関する情報 -Damage量 (literal[]/literal) Wikiを参照 (オプション)
-    data modify storage asset:artifact AttackInfo.Damage set value [280,350]
+    data modify storage asset:artifact AttackInfo.Damage set value [90,115]
 # 攻撃に関する情報 -攻撃タイプ (string[]) Wikiを参照 (オプション)
     data modify storage asset:artifact AttackInfo.AttackType set value [Magic]
 # 攻撃に関する情報 -攻撃属性 (string[]) Wikiを参照 (オプション)
@@ -53,7 +53,7 @@
 # 神器のクールダウン (int) (オプション)
     # data modify storage asset:artifact LocalCooldown set value 20
 # 種別クールダウン ({Type: string, Duration: int}) (オプション)
-    data modify storage asset:artifact TypeCooldown.Type set value "shortRange"
+    data modify storage asset:artifact TypeCooldown.Type set value "longRange"
     data modify storage asset:artifact TypeCooldown.Duration set value 20
 # グローバルクールダウン (int) (オプション)
     # data modify storage asset:artifact SpecialCooldown set value 3600
