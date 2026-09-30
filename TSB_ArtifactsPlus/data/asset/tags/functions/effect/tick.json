@@ -9,6 +9,8 @@
         "asset:effect/4212.poison_of_buttercup/_/tick",
         "asset:effect/4218.brutal_murder/_/tick",
         "asset:effect/4220.time_acceleration/_/tick",
+        "asset:effect/4233.charge_positive/_/tick",
+        "asset:effect/4234.charge_negative/_/tick",
         "asset:effect/0025.levitation/_/tick",
         "asset:effect/0244.aurora_armor/_/tick",
         "asset:effect/0243.oblivious_snow/_/tick",
