@@ -6,3 +6,6 @@
 
 # 補正を削除する
     function asset:effect/4229.speed_burst/modifier/remove
+
+# スタック用スコアボードのリセット
+    scoreboard players reset @s 1BC.Stack

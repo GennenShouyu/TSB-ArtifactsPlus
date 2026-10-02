@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '{"text":"チルゲイルナイフ","color":"green"}'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"綺麗なエメラルドグリーンの刃に、金色の装飾が","color":"white"}','{"text":"施された柄をもつナイフ。","color":"white"}','{"text":"このナイフで敵を斬ると、素早さを吸収できるという。","color":"white"}','{"text":" ","color":"white"}','{"text":"山頂の上の決して溶けたことのない氷から","color":"gray"}','{"text":"作られたこのナイフの冷たさは、","color":"gray"}','{"text":"永久に失われることはないだろう。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"エメラルドグリーンの刃を携え、金色の装飾が施された柄をもつナイフ。","color":"white"}','{"text":"攻撃した敵に鈍足を付与し、敵を撃破する度に移動速度が上昇する。","color":"white"}','{"text":"また、移動速度バフが付与された状態でクリティカル攻撃を行うことで、","color":"white"}','{"text":"バフを消費し、バフのスタックに応じた吹き飛ばし力をもつ範囲攻撃を行う。","color":"white"}','{"text":" ","color":"white"}','{"text":"山頂の上の決して溶けたことのない氷から","color":"gray"}','{"text":"作られたこのナイフの冷たさは、","color":"gray"}','{"text":"永久に失われることはないだろう。","color":"gray"}']
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
     # data modify storage asset:artifact ConsumeItem.Count set value
@@ -37,7 +37,7 @@
 # 攻撃に関する情報 -防御無視 (boolean) Wikiを参照 (オプション)
     # data modify storage asset:artifact AttackInfo.BypassResist set value 1b
 # 攻撃に関する情報 -範囲攻撃 (string) Wikiを参照 (オプション)
-    data modify storage asset:artifact AttackInfo.IsRangeAttack set value "never"
+    data modify storage asset:artifact AttackInfo.IsRangeAttack set value "condition"
 # 攻撃に関する情報 -攻撃範囲 (literal) Wikiを参照 (オプション)
     # data modify storage asset:artifact AttackInfo.AttackRange set value
 # MP消費量 (int)
