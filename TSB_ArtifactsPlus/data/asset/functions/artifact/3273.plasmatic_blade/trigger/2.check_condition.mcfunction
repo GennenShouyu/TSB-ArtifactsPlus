@@ -14,9 +14,6 @@
     scoreboard players operation $TickSinceLastUse Temporary -= $LatestUseTick Temporary
     scoreboard players reset $LatestUseTick Temporary
 
-# ラピッドスラッシュ中は仕様処理がキャンセルされる
-    execute if score @s 1BB.BurstCount matches 0.. run tag @s remove CanUsed
-
 # コンボフィニッシュを出したあとは、前回の使用時とのTickの差が13Tick以上でないと使用処理がキャンセルされる
     execute if score @s 1BB.Combo matches 4.. unless score $TickSinceLastUse Temporary matches 13.. run tag @s remove CanUsed
 

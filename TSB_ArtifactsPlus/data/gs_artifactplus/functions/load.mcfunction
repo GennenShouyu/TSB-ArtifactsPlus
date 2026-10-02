@@ -55,3 +55,9 @@
 
     # エナジー・スター object/3214.energy_star
     scoreboard objectives add 3214.hit dummy
+
+    # チルゲイルナイフ artifact/3267.chill_gale_knife
+    scoreboard objectives add 1BC.Stack dummy
+
+    # プラズマティック・ソード artifact/3273.plasmatic_sword
+    scoreboard objectives add 1BB.Combo dummy

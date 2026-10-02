@@ -7,4 +7,3 @@
 #> 定義類はここに
 # @within function asset:artifact/3273.plasmatic_blade/trigger/**
     scoreboard objectives add 1BB.Combo dummy
-    scoreboard objectives add 1BB.BurstCount dummy
