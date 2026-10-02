@@ -25,3 +25,6 @@
         execute if score $Random Temporary matches 3..51 at @e[type=#lib:living,type=!player,tag=Victim] run function asset:artifact/3245.double_edged_sword/trigger/increase/attack
     # 自分にダメージ（1ハート）
         execute if score $Random Temporary matches 52..99 at @e[type=#lib:living,type=!player,tag=Victim] run function asset:artifact/3245.double_edged_sword/trigger/increase/deal_damage
+
+    # 一撃必殺でないならカウント0で確変終了メッセージ
+        execute if score @s 1B9.BonusRound matches 0 run function asset:artifact/3245.double_edged_sword/trigger/increase/message

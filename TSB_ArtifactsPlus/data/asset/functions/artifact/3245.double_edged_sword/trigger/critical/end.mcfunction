@@ -1,3 +1,9 @@
+#> asset:artifact/3245.double_edged_sword/trigger/critical/end
+#
+#
+#
+# @within function asset:artifact/3245.double_edged_sword/trigger/critical/count
+
 # 後処理
 
 # 発光の削除
