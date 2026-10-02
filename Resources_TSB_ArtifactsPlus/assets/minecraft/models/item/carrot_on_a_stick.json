@@ -1992,6 +1992,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 3273
+            },
+            "model": "item/artifact/carrot_on_a_stick/3273"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 20187
             },
             "model": "item/mob/carrot_on_a_stick/20187"

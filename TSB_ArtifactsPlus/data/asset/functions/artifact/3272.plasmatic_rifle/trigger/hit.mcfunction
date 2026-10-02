@@ -20,15 +20,15 @@
 # リセット
     function api:damage/reset
 
-# エフェクトが付いているなら放電
-    data modify storage api: Argument.ID set value 4233
-    function api:entity/mob/effect/get/from_id
-    execute if data storage api: Return.Effect run function asset:artifact/3272.plasmatic_rifle/trigger/discharge
-
 # エフェクトを付与
     data modify storage api: Argument.ID set value 4234
     execute as @e[tag=LandingTarget] run function api:entity/mob/effect/give
     function api:entity/mob/effect/reset
+
+# エフェクトが付いているなら放電
+    data modify storage api: Argument.ID set value 4233
+    function api:entity/mob/effect/get/from_id
+    execute if data storage api: Return.Effect run function asset:artifact/3272.plasmatic_rifle/trigger/discharge
 
 # 多段ヒット防止のために被弾済みタグを付与
     tag @e[tag=LandingTarget] add already_hit

@@ -18,6 +18,9 @@
 
 # 演出
     playsound minecraft:item.totem.use player @a ~ ~ ~ 0.4 2
+    playsound minecraft:block.beacon.deactivate player @a ~ ~ ~ 1 0.5
+    playsound minecraft:block.beacon.deactivate player @a ~ ~ ~ 1 1.5
+    playsound minecraft:block.fire.ambient player @a ~ ~ ~ 10 2
 
 # 残り回数が1回の時発動した場合
     execute unless data storage asset:context Items.mainhand.id run data modify storage api: Argument.ID set value 3202

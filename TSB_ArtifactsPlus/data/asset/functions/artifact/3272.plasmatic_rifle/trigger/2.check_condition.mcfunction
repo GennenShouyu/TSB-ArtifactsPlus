@@ -9,4 +9,8 @@
 # 他にアイテム等確認する場合はここに書く
 
 # CanUsedタグをチェックして3.main.mcfunctionを実行する
-    execute if entity @s[tag=CanUsed] run function asset:artifact/3272.plasmatic_rifle/trigger/3.main
+    # シフトで使用の場合はチェックをスキップする
+    execute if predicate lib:is_sneaking run function asset:artifact/3272.plasmatic_rifle/trigger/mode_change/
+
+    # 通常使用
+    execute if entity @s[tag=CanUsed] unless predicate lib:is_sneaking run function asset:artifact/3272.plasmatic_rifle/trigger/3.main
