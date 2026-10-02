@@ -9,4 +9,9 @@
 # 他にアイテム等確認する場合はここに書く
 
 # CanUsedタグをチェックして3.main.mcfunctionを実行する
-    execute if entity @s[tag=CanUsed] run function asset:artifact/3245.double_edged_sword/trigger/3.main
+
+    # 確変中
+    execute if score @s 1B9.BonusRound matches 1.. if entity @s[tag=CanUsed] run function asset:artifact/3245.double_edged_sword/trigger/increase/
+
+    # 通常モード
+    execute unless score @s 1B9.BonusRound matches 1.. if entity @s[tag=CanUsed] run function asset:artifact/3245.double_edged_sword/trigger/3.main

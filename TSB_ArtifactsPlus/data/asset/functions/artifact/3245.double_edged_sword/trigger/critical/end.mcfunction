@@ -14,3 +14,6 @@
     team remove color_aqua
     team remove color_blue
     team remove color_light_purple
+
+# 50%で確変発動
+    execute if predicate lib:random_pass_per/50 run function asset:artifact/3245.double_edged_sword/trigger/critical/bonus_round
