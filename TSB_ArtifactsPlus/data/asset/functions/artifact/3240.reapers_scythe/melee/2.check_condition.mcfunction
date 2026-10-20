@@ -9,4 +9,5 @@
 # 他にアイテム等確認する場合はここに書く
 
 # CanUsedタグをチェックして3.main.mcfunctionを実行する
+    execute if entity @s[tag=CanUsed] if data storage asset:context Attack{Crit:true} run function asset:artifact/3240.reapers_scythe/melee/crit
     execute if entity @s[tag=CanUsed] run function asset:artifact/3240.reapers_scythe/melee/3.main

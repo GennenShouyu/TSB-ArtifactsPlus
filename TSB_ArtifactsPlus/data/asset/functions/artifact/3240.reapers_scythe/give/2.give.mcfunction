@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '[{"text":"リーパーズ・サイス","color":"#ac001d"}]'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"右クリックでMPを全て消費することで","color":"white"}','[{"text":"惨殺","color":"dark_red","bold":true},{"text":"状態になり、攻撃力が大幅に上昇する。","color":"white","bold":false}]','{"text":"その間はMPが回復せず、回復神器の効能が無力化される。","color":"white"}','{"text":" ","color":"white"}','{"text":"殺人ロボが持っていた大鎌。","color":"gray"}','{"text":"非常に鈍いのか、殴るのと同等のダメージしか与えられない。","color":"gray"}']
+    data modify storage asset:artifact Lore set value ['{"text":"右クリックでMPを全て消費することで","color":"white"}','[{"text":"惨殺","color":"dark_red","bold":true},{"text":"状態になり、攻撃力が大幅に上昇する。","color":"white","bold":false}]','{"text":"その間はMPが回復せず、回復神器の効能が無力化される。","color":"white"}','[{"text":"また、","color":"white","bold":false},{"text":"惨殺","color":"dark_red","bold":true},{"text":"中、コンボフィニッシュでは前方に貫通する斬撃を放つ。","color":"white","bold":false}]','{"text":" ","color":"white"}','{"text":"殺人ロボが持っていた大鎌。","color":"gray"}','{"text":"非常に鈍いのか、殴るのと同等のダメージしか与えられない。","color":"gray"}']
 
 # 消費アイテム ({Item: TextComponent, Count: int, Extra?: TextComponent}) (オプション)
     # data modify storage asset:artifact ConsumeItem.Item set value
