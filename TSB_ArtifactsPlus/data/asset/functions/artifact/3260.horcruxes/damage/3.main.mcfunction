@@ -15,7 +15,7 @@
 
 # 確率で壊れる
     # 疑似乱数取得
-        execute store result score $Random Temporary run random value 0..3
+        execute store result score $Random Temporary run random value 0..6
     # 壊れる
         execute if score $Random Temporary matches 0 run function asset:artifact/common/use/hotbar
         execute if score $Random Temporary matches 0 run function asset:artifact/3260.horcruxes/trigger/dis_equip/main

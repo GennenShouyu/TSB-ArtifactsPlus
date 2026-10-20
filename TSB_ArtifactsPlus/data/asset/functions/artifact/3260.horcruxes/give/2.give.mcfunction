@@ -15,7 +15,7 @@
 # 神器の名前 (TextComponentString)
     data modify storage asset:artifact Name set value '{"text":"分霊箱","color":"white"}'
 # 神器の説明文 (TextComponentString[])
-    data modify storage asset:artifact Lore set value ['{"text":"装備中、攻撃を一切受け付けなくなる。","color":"white"}','{"text":"だが、被ダメージ時に箱が壊れたとき、","color":"white"}','{"text":"自身にダメージが入る。","color":"white"}']
+    data modify storage asset:artifact Lore set value ['{"text":"装備中、攻撃を一切受け付けなくなる。","color":"white"}','{"text":"だが、被ダメージ時に確率で箱が壊れ、","color":"white"}','{"text":"壊れた際に自身にダメージが入る。","color":"white"}']
 # MP以外の消費物 (TextComponentString) (オプション)
     # data modify storage asset:artifact CostText set value
 # 使用回数 (int) (オプション)
