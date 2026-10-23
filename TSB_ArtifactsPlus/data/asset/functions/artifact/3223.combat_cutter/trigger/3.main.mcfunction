@@ -7,6 +7,7 @@
 #> private
 # @private
     #declare score_holder $SharpnessCount
+    #declare score_holder $Random
 
 # 基本的な使用時の処理(MP消費や使用回数の処理など)を行う auto/feet/legs/chest/head/mainhand/offhandを記載してね
     function asset:artifact/common/use/mainhand
@@ -16,7 +17,7 @@
 # 使用回数を取る
     execute store result score $SharpnessCount Temporary run data get storage asset:context Items.mainhand.tag.TSB.RemainingCount
 
-# vfx用
+# 効果音用
     execute if score $SharpnessCount Temporary matches 25 run playsound minecraft:block.anvil.use player @a ~ ~ ~ 0.7 0.8
     execute if score $SharpnessCount Temporary matches 25 run particle minecraft:block iron_block ~ ~1 ~ 0.4 1.0 0.4 0 20
     
@@ -37,6 +38,14 @@
 
     execute if score $SharpnessCount Temporary matches 270 run playsound minecraft:block.anvil.use player @a ~ ~ ~ 0.7 2
     execute if score $SharpnessCount Temporary matches 270 run particle minecraft:block iron_block ~ ~1 ~ 0.4 1.0 0.4 0 20
+
+# vfx
+    # 疑似乱数取得
+        execute store result score $Random Temporary run random value 0..2
+        
+    execute if score $Random Temporary matches 0 anchored eyes run function asset:artifact/3223.combat_cutter/trigger/vfx/slash1
+    execute if score $Random Temporary matches 1 anchored eyes run function asset:artifact/3223.combat_cutter/trigger/vfx/slash2
+    execute if score $Random Temporary matches 2 anchored eyes run function asset:artifact/3223.combat_cutter/trigger/vfx/slash3
     
 
 # ダメージ
