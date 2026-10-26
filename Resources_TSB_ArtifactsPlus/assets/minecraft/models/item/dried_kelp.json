@@ -27,6 +27,12 @@
                 "custom_model_data": 1107
             },
             "model": "item/dried_kelp"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3274
+            },
+            "model": "item/dried_kelp"
         }
     ]
 }
