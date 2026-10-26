@@ -13,4 +13,4 @@
     execute if entity @a[tag=3275.Ride,x_rotation=-90..10] as @a[tag=3275.Ride,sort=nearest,limit=1] at @s anchored eyes rotated ~ ~ run tp @e[tag=3275.Barrel,sort=nearest,limit=1] ^ ^-1 ^1.2 ~ ~
 
 # 消滅処理
-    kill @s[scores={General.Object.Tick=180..}]
+    kill @s[scores={General.Object.Tick=400..}]

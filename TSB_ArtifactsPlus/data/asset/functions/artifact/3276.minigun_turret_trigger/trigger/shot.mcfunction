@@ -14,13 +14,15 @@
 # ここから先は神器側の効果の処理を書く
 
 # 前方拡散設定
-    execute anchored eyes positioned ^ ^-0.5 ^2 rotated 0 0 run summon marker ~ ~ ~ {Tags:["SpreadMarker"]}
+    execute if entity @s[x_rotation=-90..10] anchored eyes positioned ^ ^-0.5 ^2 run summon marker ~ ~ ~ {Tags:["SpreadMarker"]}
+    execute unless entity @s[x_rotation=-90..10] anchored eyes rotated ~ 0 positioned ^ ^-0.5 ^2 run summon marker ~ ~ ~ {Tags:["SpreadMarker"]}
     data modify storage lib: Argument.Distance set value 2.0
     data modify storage lib: Argument.Spread set value 0.3
 # 前方拡散を実行する
     execute as @e[type=marker,tag=SpreadMarker,limit=1] run function lib:forward_spreader/circle
 # 発砲
-    execute anchored eyes positioned ^ ^-0.5 ^2 rotated 0 0 facing entity @e[type=marker,tag=SpreadMarker,limit=1] feet run function asset:artifact/3276.minigun_turret_trigger/trigger/bullet
+    execute if entity @s[x_rotation=-90..10] anchored eyes positioned ^ ^-0.5 ^2 facing entity @e[type=marker,tag=SpreadMarker,limit=1] feet run function asset:artifact/3276.minigun_turret_trigger/trigger/bullet
+    execute unless entity @s[x_rotation=-90..10] anchored eyes rotated ~ 0 positioned ^ ^-0.5 ^2 facing entity @e[type=marker,tag=SpreadMarker,limit=1] feet rotated ~ 0 run function asset:artifact/3276.minigun_turret_trigger/trigger/bullet
     tag @s remove Landing
 
 # 乱数取得

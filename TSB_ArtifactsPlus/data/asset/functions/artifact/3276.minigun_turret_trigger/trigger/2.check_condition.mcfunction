@@ -10,7 +10,5 @@
 
     execute if entity @s[tag=CanUsed] unless entity @s[tag=3275.Ride] run tag @s[tag=CanUsed] remove CanUsed
 
-    execute if data storage api: Return.Effect run tellraw @s [{"text":"発動するには召喚した物に乗る必要があります。","color":"red"}]
-
 # CanUsedタグをチェックして3.main.mcfunctionを実行する
     execute if entity @s[tag=CanUsed] run function asset:artifact/3276.minigun_turret_trigger/trigger/3.main
